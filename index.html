@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rochelle's Cupcake Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/30/cupcake-575550_1280.png" alt="Kawaii Baking Logo">
+            <h1>Rochelle's Cupcake Recipe</h1>
+        </div>
+        <p>Pretty, delicious pink cupcakes that brighten any day!</p>
+    </header>
+
+    <main>
+        <section class="recipe-image">
+            <img src="https://cdn.pixabay.com/photo/2016/12/26/17/28/cupcakes-1936480_1280.jpg" alt="Pink Cupcake">
+        </section>
+
+        <section class="more-images">
+            <img src="https://cdn.pixabay.com/photo/2016/11/18/15/47/cupcake-1835444_1280.jpg" alt="Cute Cupcake">
+            <img src="https://cdn.pixabay.com/photo/2017/01/06/13/58/cupcakes-1958677_1280.jpg" alt="Decorated Cupcake">
+            <img src="https://cdn.pixabay.com/photo/2017/01/06/13/58/cupcakes-1958678_1280.jpg" alt="Colorful Cupcake">
+        </section>
+
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 1/4 cups all-purpose flour</li>
+                <li>1/4 teaspoon baking soda</li>
+                <li>1 1/2 teaspoons baking powder</li>
+                <li>1/4 teaspoon salt</li>
+                <li>2/3 cup sugar</li>
+                <li>1/2 cup unsalted butter, room temperature</li>
+                <li>1 egg</li>
+                <li>1 1/2 teaspoons vanilla extract</li>
+                <li>1/2 cup milk</li>
+                <li>2-3 drops of pink food coloring</li>
+            </ul>
+        </section>
+
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li>Preheat your oven to 350°F (175°C) and line a cupcake tin with 12 liners.</li>
+                <li>In a medium bowl, whisk together flour, baking soda, baking powder, and salt.</li>
+                <li>In a large bowl, beat the sugar and butter together until light and fluffy.</li>
+                <li>Add the egg and vanilla extract to the butter mixture and beat until smooth.</li>
+                <li>Gradually add the flour mixture, alternating with the milk, mixing until well combined.</li>
+                <li>Add 2-3 drops of pink food coloring and mix until the batter turns a soft pink.</li>
+                <li>Spoon the batter into the cupcake liners, filling each about 2/3 full.</li>
+                <li>Bake for 15-18 minutes, or until a toothpick comes out clean.</li>
+                <li>Let the cupcakes cool before frosting with your favorite icing!</li>
+            </ol>
+        </section>
+
+        <section class="newsletter">
+            <h2>Sign up for our newsletter!</h2>
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name"><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+
+                <label>Favorite Animal:</label>
+                <input type="radio" id="dog" name="animal" value="Dog">
+                <label for="dog">Dog</label>
+                <input type="radio" id="cat" name="animal" value="Cat">
+                <label for="cat">Cat</label>
+                <input type="radio" id="hedgehog" name="animal" value="Hedgehog">
+                <label for="hedgehog">Hedgehog</label><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="scotland">Scotland</option>
+                    <option value="france">France</option>
+                </select><br>
+
+                <label for="bio">Biography:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+
+                <label for="subscribe">Subscribe to our newsletter!</label>
+                <input type="checkbox" id="subscribe" name="subscribe"><br>
+
+                <button type="submit">Send!</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Recipe Website by Rochelle Lee</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
